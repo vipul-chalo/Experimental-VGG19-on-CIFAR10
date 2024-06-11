@@ -67,7 +67,7 @@ def cifar10_custom_VGG19(image_shape=IMG_SIZE, weights=False):
 
     # fully connected layers and Dropout layers
     x = Dense(1024, activation='relu', name='fc1')(x)
-    x = Dropout(0.2, name='fc1_dropout')(x)
+    x = Dropout(0.3, name='fc1_dropout')(x)
     x = Dense(1024, activation='relu', name='fc2')(x)
     x = Dropout(0.2, name='fc2_dropout')(x)
     x = Dense(1024, activation='relu', name='fc3')(x)
