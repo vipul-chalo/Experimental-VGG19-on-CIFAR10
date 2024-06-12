@@ -36,7 +36,14 @@ Further data augmentation was performed on the training dataset to achieve final
 
 ## 🎯 Final Results:
 
-Final results obtained from training the models have been significantly different but in alignment with the established phenomenon in the Data Science Field.
+Final results obtained from training the models have been significantly different but in alignment with the established phenomenon in the Data Science Field, that is, fine-tuning pre-trained models on huge datasets will yield better results in shorter time.
 
 1. Fully trained preloaded VGG22 with ImageNet weights: Training - 96.3% | Validation - 88.5% | Testing - 88.8%
 2. Custom VGG22 trained from scratch: Training - 90.8% | Validation - 81.7% | Testing - 81.5%
+
+## 👀 Future Vision:
+
+I plan to do a comparative analysis of the weights for the two models as an attempt to understand the importance of weight initialization and how the training process differs for a random weight initialized model to an ImageNet weight initialized model.
+
+...WORK UNDER PROGRESS...
+.........................
