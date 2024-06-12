@@ -1,4 +1,4 @@
-# 🎦 Experimental-VGG19-on-CIFAR10
+# 🎦 Experimental-VGGNet-on-CIFAR10
 
 ## ✏️ Introduction
 
